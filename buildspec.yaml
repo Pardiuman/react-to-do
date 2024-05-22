@@ -1,18 +1,20 @@
+version: 0.2
+
 phases:
   install:
-    runtime-versions: 
+    runtime-versions:
       nodejs: 16
-   
-  pre-build:
+
+  pre_build:
     commands:
-    -  echo 'install dependencies'
-    -  npm install
+      - echo 'install dependencies'
+      - npm install
 
   build:
     commands:
-    -  echo 'building the project'
-    -  npm run build
+      - echo 'building the project'
+      - npm run build
 
-artifatcs:
+artifacts:
   files:
-  -  "public/**/*"
+    - "public/**/*"
