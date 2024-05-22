@@ -2,4 +2,4 @@
 cd /var/www/html
 ls
 apt update
-apt install nginx
+apt install -y  nginx
