@@ -3,8 +3,8 @@ pipeline {
     stages{
         stage("first stage"){
             steps{
-                sh 'npm install'
-                sh 'npm run build'
+ #               sh 'npm install'#
+                sh 'echo "hello from feature branch"'
             }
         }
     }
