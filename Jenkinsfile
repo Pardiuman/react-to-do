@@ -3,8 +3,7 @@ pipeline {
     stages{
         stage("first stage"){
             steps{
-                sh 'npm install'
-                sh 'npm run build'
+                sh 'echo "hello from master branch'
             }
         }
     }
