@@ -8,7 +8,7 @@ pipeline {
         }
 	stage("second stage"){
 	    steps{
-		sh 'ehco from master branch but second stage'
+		sh 'echo from master branch but second stage'
 	    }
 	}
     }
