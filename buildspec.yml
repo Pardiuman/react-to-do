@@ -13,8 +13,8 @@ phases:
       - echo Pre-build phase
 
   build:
+    on-failure: ABORT
     commands:
-    on-failure: ABORT 
       - echo Building the project
       - ls -l
       - npm run build
