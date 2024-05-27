@@ -3,7 +3,7 @@ import React from 'react';
 const Version = () => {
   return (
     <div className="version">
-      Application Revision: 1
+      Application Revision: 2
     </div>
   );
 };
